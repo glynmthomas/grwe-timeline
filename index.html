@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>Timeline</title>
 <link rel="stylesheet" href="https://use.typekit.net/c/c0cc11/1w;felt-tip-roman,2,g24:W:n4,g25:W:n7;source-sans-pro,2,2clybp:W:n3,2clybs:W:n4,2clybt:W:n6,2clybw:W:n7/l" media="all">
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
@@ -36,7 +36,7 @@ h2.tl-headline {color: #003D7D; font-family: "felt-tip-roman";}
 	text-decoration: none;
 }
 
-@font-face{font-family:"SSPika";src:url("ss-pika.eot");src:url("ss-pika.eot?#iefix") format("embedded-opentype"),url("ss-pika.woff") format("woff"),url("ss-pika.ttf") format("truetype"),url("ss-pika.svg#SSPika") format("svg");font-weight:normal;font-style:normal}
+@font-face{font-family:"SSPika";src:url("http://www.grwe.com/wp-content/themes/greyhounds/assets/webfonts/pika/ss-pika.eot");src:url("http://www.grwe.com/wp-content/themes/greyhounds/assets/webfonts/pika/ss-pika.eot?#iefix") format("embedded-opentype"),url("http://www.grwe.com/wp-content/themes/greyhounds/assets/webfonts/pika/ss-pika.woff") format("woff"),url("http://www.grwe.com/wp-content/themes/greyhounds/assets/webfonts/pika/ss-pika.ttf") format("truetype"),url("http://www.grwe.com/wp-content/themes/greyhounds/assets/webfonts/pika/ss-pika.svg#SSPika") format("svg");font-weight:normal;font-style:normal}
 .btn_icon {
 background: url("http://www.grwe.com/wp-content/themes/greyhounds/assets/images/button-iconbg.png") no-repeat;
     color: #fff;
@@ -65,9 +65,13 @@ h3.tl-headline-date {color: #000000!important;}
 </body>
 <script type="text/javascript">
 
-  var additionalOptions = {
-            initial_zoom: 1
+var additionalOptions = {
+            hash_bookmark: true,
+            default_bg_color: {r:0, g:0, b:0},
+            timenav_height: 250,
+			initial_zoom: 1
           }
+
       // The TL.Timeline constructor takes at least two arguments:
       // the id of the Timeline container (no '#'), and
       // the URL to your JSON data file or Google spreadsheet.
